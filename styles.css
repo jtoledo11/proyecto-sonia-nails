@@ -51,6 +51,14 @@ header{
 .gallery--grid--item{
     height: 280px;
     width: 280px;
+    -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+
+.gallery--grid--item:hover{
+    opacity: 0.3;
+    
 }
 
 .gallery--grid--container{
@@ -85,11 +93,20 @@ header{
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    background: rgb(240, 238, 238);
+    background: rgb(150, 150, 150);
     height: 300px;
     margin: 2rem 5rem;
     padding: 0 1rem;
+    border-radius: 0px;
+    background-color: rgb(235, 232, 232);
+    -webkit-transition: 1s linear;
+    transition: 1s linear
 }
+
+.title--box:hover{
+    border-radius: 20px;
+}
+
 
 .galeria2{
     text-align: center;
@@ -194,6 +211,14 @@ header{
 .servicios--items--image{
     height: 300px;
     width: 200px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #F1C40F;
+}
+
+.servicios--items--image:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
 }
 
 .container-servicios{

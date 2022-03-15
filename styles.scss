@@ -1,0 +1,30 @@
+/* Variables */
+$title-font: normal 24px/1.5 'Roboto', sans-serif;
+$cool-violet: #c229ff;
+$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+$bold: font-weight bold;
+/* SCSS*/
+
+
+
+.container{
+    background-color:rgb(247, 247, 247);
+}
+
+
+.row-featurette {
+    color: $cool-violet;
+    font-weight: $bold;
+}
+
+
+.featurette-heading{
+    color: $cool-violet;
+    $box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.lead-1{
+    font-weight: $bold;
+    $box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  }

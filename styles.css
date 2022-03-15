@@ -1,0 +1,21 @@
+/* Variables */
+/* SCSS*/
+.container {
+  background-color: #f7f7f7;
+  
+}
+
+
+.row-featurette {
+  color: #c229ff;
+  font-weight: font-weight bold;
+}
+
+.featurette-heading {
+  color: #c229ff;
+}
+
+.lead-1 {
+  font-weight: font-weight bold;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+/* Variables */
+/* SCSS*/
+h1.title {
+  font: normal 24px/1.5 "Open Sans", sans-serif;
+  /* Uso la variable*/
+  color: #F44336;
+}
+
+div.container-sass {
+  color: #F44336;
+  background: #e611b0;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=estilos.css.map */

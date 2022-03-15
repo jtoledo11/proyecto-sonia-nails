@@ -83,6 +83,7 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+    margin-left: 20px;
   }
 }
 
@@ -90,4 +91,41 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+
+    .card-shadow-sm:hover{
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+}
+
+.card-shadow-sm2:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-shadow-sm3:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-shadow-sm4:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.p-lead {
+    margin-left: 20px;
+}
+
+.fs-5{
+  margin-left: 10px;
+}
+
+.fs-4{
+  margin-left: 10px;
 }
